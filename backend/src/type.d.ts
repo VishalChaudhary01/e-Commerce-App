@@ -1,3 +1,4 @@
+
 declare namespace NodeJS {
      interface ProcessEnv {
           PORT: number;
@@ -11,4 +12,5 @@ declare namespace Express {
           id: string;
          user?: JwtPayload;
      }
- }
+     
+}
